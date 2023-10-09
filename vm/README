@@ -1,0 +1,41 @@
+# ASIX2 GP1 2023-2024 FJE CLOT
+ 
+# gp1f4a5.4
+
+## Requisits
+
+1. Git https://git-scm.com/
+2 Virtualbox https://www.virtualbox.org/
+3. Vagrant https://www.vagrantup.com/
+4. Docker https://www.docker.com/
+
+## Pasos a seguir
+
+1. Per posar en marxa la màquina virtual executa:
+
+	vagrant up
+
+des dins del directori a on es troba el fitxer Vagrantfile
+
+2. Per accedir a la màquina virtual executa:
+
+	vagrant ssh
+
+3. Per sortir de la màquina virtual s'ha d'executar:
+
+	exit
+
+dins de la màquina virtual
+
+4. Per aturar la màquina virtual executa:
+ 	
+	vagrant halt
+
+5. Si vols esborrar la màquina, executa:
+
+	vagrant destroy
+
+6. Els fitxers del codi PHP es troben
+
+	a) Dins de la màquina virtual a /home/vagrant/projectes
+	b) Dins de la màquina física a ../codi_projectes
